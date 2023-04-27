@@ -1,0 +1,101 @@
+.form-container{
+    width: 45rem;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(calc(50% - 1.5rem),-50%);
+    padding: 5rem;
+    text-align: center;
+    
+
+}
+.form-container .text{
+    margin-bottom: 1rem;
+}
+.form-container .text:first-child{
+    color: #353535;
+    font-size: 2.9rem;
+    font-weight: 400;
+}
+.form-container .text:nth-child(2){
+    color: #353535;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.form-container .sign-up-cta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.form-container .sign-up-cta p {
+    font-size: 1.5rem !important;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.form-container .sign-up-cta a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(0, 76, 240);
+    font-size: 1.5rem;
+
+    
+}
+.form-container .sign-up-cta a:hover{
+    color: var(--secondary-color);
+}
+.h2{
+    font-weight: 600 !important;
+    font-size: 3.2rem !important;
+    margin-bottom: 2.5rem !important;
+}
+form {
+
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+
+}
+form h1{
+    color: #333;
+    font-size: 3.6rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: start;
+ 
+}
+form input{
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border: none;
+    /* border-bottom: 1px solid var(--secondary-color); */
+    box-shadow: -1px 1px 0 var(--primary-color);
+
+}
+form input:focus{
+outline: transparent;
+    /* border-bottom: 2px solid var(--secondary-color); */
+    /* margin-bottom: -1px;` */
+    box-shadow: -3px 3px 0px var(--primary-color) ;
+
+    transition: .2s;
+
+}
+form input::placeholder{
+    font-size: 1.6rem;
+}
+form label{
+    font-weight: 500;
+}
+input[type="submit"]{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:white;
+    background-color: var(--secondary-color);
+}
+
+input[type="submit"]:hover{
+    background-color: var(--primary-color);
+    transition: .2s all;
+}
